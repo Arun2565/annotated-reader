@@ -21,7 +21,7 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v4
-      - run: npm ci --ignore-scripts
+      - run: npm install --ignore-scripts
       - run: node scripts/build-discovery-index.mjs https://example.com/skills
 
   publish:
@@ -38,7 +38,7 @@ jobs:
       RELEASE_TAG: agent-skills-${{ github.sha }}
     steps:
       - uses: actions/checkout@v4
-      - run: npm ci --ignore-scripts
+      - run: npm install --ignore-scripts
       - run: node scripts/build-discovery-index.mjs "https://github.com/${{ github.repository }}/releases/download/${RELEASE_TAG}"
       - run: |
           gh release view "$RELEASE_TAG" >/dev/null 2>&1 ||
