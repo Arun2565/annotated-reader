@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "annotated-reader",
+      "description": "Overlay MoonReader highlights on EPUB chapter text for reading.",
+      "type": "archive",
+      "url": "https://raw.githubusercontent.com/Arun2565/annotated-reader/main/dist/annotated-reader.tar.gz",
+      "digest": "sha256:b76e7e382b5c60fdc852f6ff3189a2cd25da2303074e578896f1662308a36c1b"
+    }
+  ]
+}
