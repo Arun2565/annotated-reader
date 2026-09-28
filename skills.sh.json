@@ -1,0 +1,11 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Reading & Annotations",
+      "description": "Read MoonReader highlights overlaid on EPUB chapter text.",
+      "skills": ["annotated-reader"]
+    }
+  ]
+}
