@@ -1,6 +1,6 @@
 ---
 name: annotated-reader
-description: "Overlay MoonReader highlights on EPUB chapter text for reading."
+description: "Read your MoonReader annotations overlaid on the original EPUB chapter text — like Apple Books. Generates a self-contained HTML reader per chapter with floating TOC, syntax-highlighted code blocks, and progress tracking. Works with any MoonReader-exported .mrexpt annotation file and its source EPUB."
 version: 0.1.0
 author: Rohit (Arun2565), Hermes Agent
 license: MIT

@@ -4,7 +4,7 @@
   "groupings": [
     {
       "title": "Reading & Annotations",
-      "description": "Read MoonReader highlights overlaid on EPUB chapter text.",
+      "description": "Tools for re-reading EPUB books with your MoonReader highlights overlaid on the original chapter text — like Apple Books. Perfect for annotating academic papers, novels, and research documents with visual highlight overlays, syntax-highlighted code blocks, and a floating table of contents.",
       "skills": ["annotated-reader"]
     }
   ]
